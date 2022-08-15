@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Sacramento&family=Work+Sans:ital,wght@0,700;1,100;1,300;1,500;1,800&display=swap');
+body{
+    background-color: rgb(56, 197, 197);
+    font: bold 20pt bold;
+    font-family: Nunito, sacramento, 'work sans';
+    color: rgba(53, 52, 52, 0.863);
+}
+header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 2px 3px 5px black;
+}
+section{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.644);
+    border-radius: 50px;
+    padding: 20px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.658) 5px 5px 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+div#foto{
+    padding: 10px;
+}
+div#saudacao{
+    font-size: 40pt;
+}
+footer{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: italic;
+    padding: 20px;
+    text-shadow: 2px 3px 5px black;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}

@@ -16,6 +16,7 @@ section{
     border-radius: 50px;
     padding: 20px;
     width: 80%;
+    max-width: 450px;
     height: auto;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.658) 5px 5px 10px;

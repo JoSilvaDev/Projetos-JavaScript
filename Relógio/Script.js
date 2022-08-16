@@ -56,21 +56,21 @@ switch(mes){
 if(hora < 5){
 saud.innerHTML = `Bom Dia!`
 document.body.style.backgroundImage = 'Linear-gradient(90deg, gray, rgb(225,225,225))'
-img.src = 'madrugada.png'
+    img.src = 'imagens/madrugada.png'
 }else{
     if(hora < 12){
         saud.innerHTML = `Bom dia!`
         document.body.style.backgroundImage = 'linear-gradient(90deg, rgb(228, 216, 177),rgb(228, 216, 157)'
-        img.src = 'manha.png'
+        img.src = 'imagens/manha.png'
     }else{
         if(hora < 18){
             saud.innerHTML = `Boa tarde!`
             document.body.style.backgroundImage = 'linear-gradient(90deg, rgb(196, 114, 6), orange)'
-            img.src = 'tarde.png'
+            img.src = 'imagens/tarde.png'
         }else{
             saud.innerHTML = `Boa noite!`
             document.body.style.backgroundImage = 'linear-gradient(90deg, rgb(91, 88, 105), rgb(55,60,65))'
-            img.src = 'noite.png'
+            img.src = 'imagens/noite.png'
         }
     }
 }

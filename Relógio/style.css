@@ -30,7 +30,7 @@ a{
     text-decoration: none;
 }
 a:visited{
-    color: rgba(211, 211, 211, 0);
+    color: white;
 }
 a:hover{
     color: rgb(43, 19, 65);
